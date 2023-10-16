@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="controller/controleHome.js"></script>
+    <link rel="shortcut icon" type="assets/images/logo2.png" href="assets/images/logo2.png">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Apps Tecnologia</title>
+</head>
+
+<body class="bg-light bg-gradient">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-bottom: solid black 1px;">
+
+        <div class="col-1 container">
+            <img src="assets/images/logo.png" alt="" width="150vh">
+        </div>
+        <div class="col-10 container text-center">
+            <div class="col-3">
+                <div class="p-3 underlinemouse" id='sobrenosmenu'>Sobre a Apps</div>
+            </div>
+            <div class="col-3">
+                <div class="p-3 underlinemouse" id='servicosmenu'>Serviços</div>
+            </div>
+            <div class="col-3">
+                <div class="p-3 underlinemouse" id='aplicacoesmenu'>Aplicações</div>
+            </div>
+            <div class="col-3">
+                <div class="p-3 underlinemouse" id='contatomenu'>Contato</div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div id='sobrenos'>
+            <div class="row align-items-center mt-3">
+                <div class="col-9 apps">
+                    <h5 class="mt-3">APPS Tecnologia</h5>
+                    <p>A APPS Tecnologia tem como objetivo propor uma consultoria de estratégia e gestão focada em soluções implementáveis, <br>
+                        alavancando organizações, equipes e indivíduos, além de prover soluções em tecnologia para agregar a Softwares de Gestão,<br>
+                        trazendo mais eficiência, segurança e produtividade às empresas.</p>
+
+                    <p class="paaaa">Acreditamos no poder de unir conhecimento técnico com know-how.</p>
+
+                    <p>Nos organizamos para ajudar sua empresa a alcançar crescimento, eficiência e ambição de transformação.</p>
+
+                    <p>Os softwares produzidos pela APPS Tecnologia, atendem a pequenas, médias e grandes empresas ofertando <br> diferenciais competitivos entre os diversos segmentos como varejo, atacado, indústria e prestadores de serviço.</p>
+
+                    <p>Oferecemos soluções com total integração e aderência aos Softwares já utilizados pelas empresas, permitindo <br>
+                        investimentos progressivos de acordo com as condições e tamanho de cada empresa.</p>
+
+                    <h5>Nossa Missão</h5>
+                    <p>Dar ao cliente uma gestão mais eficaz e melhores resultados.</p>
+
+                    <h5>Visão</h5>
+                    <p>Nossas soluções são inspiradas nos desafios e oportunidades que o mercado busca. Somos movidos pela inovação,<br>
+                        transformando ideias em ações, possibilitando eficiência e eficácia na tomada de decisão.</p>
+                </div>
+                <div class='col-3 m-3'>
+                    <img src="assets/images/logo.png" alt="" width="350vh">
+                </div>
+            </div>
+        </div>
+
+        <div id='servicos' style="display: none;">
+            <div class="row align-items-center mt-3">
+                <div class="col-9 apps">
+                    <h5 class="mt-3">APPS Tecnologia</h5>
+                    <p>Todos os nossos serviços e aplicações são baseados e pensados na necessidade dos nossos clientes, utilizamos nosso<br>
+                        know-how para oferecer a melhor solução e o melhor custo benefício. Solicite uma apresentação e saiba mais sobre <br>
+                        nossas aplicações disponíveis.
+                    </p>
+
+                    <p>
+                    <ul>
+
+                        <li><b>Integrações</b>
+                            <p>Integramos seus dados com qualquer plataforma. Nos apresente sua necessidade e com certeza teremos uma solução. <br>
+                            </p>
+                        </li>
+
+                        <li><b>Softwares Personalizados</b>
+                            <p>Sabe aquele software que atenderia perfeitamente a sua necessidade e você não sabe onde encontrar ? <br>
+                                A Apps tem a solução para você, nossa consutoria com certeza apresentará uma ótima solução e você terá <br>
+                                o seu software unico e personalizado do seu jeitinho. Se não existe a Gente faz .
+                            </p>
+                        </li>
+
+                    </ul>
+                    </p>
+                </div>
+                <div class='col-3 m-3'>
+                    <img src="assets/images/logo.png" alt="" width="350vh">
+                </div>
+            </div>
+        </div>
+        <div id='aplicacoes' style="display: none;">
+            <div class="row align-items-center mt-3">
+                <div class="col-9 apps">
+                    <h5 class="mt-3">APPS Tecnologia</h5>
+                    <p>Todos os nossos serviços e aplicações são baseados e pensados na necessidade dos nossos clientes, utilizamos nosso<br>
+                        know-how para oferecer a melhor solução e o melhor custo benefício. Solicite uma apresentação e saiba mais sobre <br>
+                        nossas aplicações disponíveis.
+                    </p>
+
+                    <p>
+                    <ul>
+                        <li><b>Inventário</b>
+                            <p>Ferramenta de inventário que possibilita a realização de pré contagens, avaliação de produtividade, resultado <br>
+                                parcial em tempo real, reconferencia de divergencias e valoração de resultado. Entrega relatórios e <br>
+                                dashboard para futuras apresentações.
+                            </p>
+                        </li>
+                        <li><b>Dashboard Comercial</b>
+                            <p>Ferramenta de apresentação de resultados em tempo real. Acompanhe a venda da sua empresa de qualquer lugar do <br>
+                                Planeta com acesso a internet, avalie o seu ticket médio, a sua frequencia, o potencial de alcance de metas e etc.<br>
+                                Tome decisões baseadas em resultados com essa ferramente que permite você <b>Gestor</b> está sempre acompanhando <br>
+                                suas vendas de perto.
+                            </p>
+                        </li>
+
+                        <li><b>Fila</b>
+                            <p>Controle total dos seus atendimentos em tempo real na palma da mão do seu vendedor. <br>
+                            </p>
+                        </li>
+
+
+                    </ul>
+                    </p>
+                </div>
+                <div class='col-3 m-3'>
+                    <img src="assets/images/logo.png" alt="" width="350vh">
+                </div>
+            </div>
+        </div>
+        <div id='contato' style="display: none;">
+            <div class="row align-items-center mt-3">
+                <div class='col-1'></div>
+                <div class="col-9 apps" style="width:100vh;">
+                    <h5 class="mt-3">Formulário de Cadastro</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite o seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="empresa">Empresa:</label>
+                            <input type="text" class="form-control" id="empresa" placeholder="Digite o nome da empresa" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="Digite o seu telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite o seu email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary m-2" style="background-color: #65b6a5; border: solid black 1px; margin: 5px;">Cadastrar</button>
+                    </form>
+                </div>
+                <div class='col-2 m-3'>
+                    <img src="assets/images/logo.png" alt="" width="350vh">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top footerapps">
+    <div class="col-md-1"></div>
+    <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <img src="assets/images/logo2.png" alt="" width="20vh">
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">Copyright &copy; 2023 <a href="https://appstecnologia.com/">AppsTecnologia</a>.</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class='bi bi-twitter-x'></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
+    </ul>
+    <div class="col-md-1"></div>
+</footer>
+
+</html>
