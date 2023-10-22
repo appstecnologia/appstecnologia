@@ -20,30 +20,33 @@ $hora_atual = date('H:i:s');
 <body id='body' class="bg-light bg-gradient">
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="" width="150vh"></a>
+        <div class="container align-items-center">
+            <a class="navbar-brand" href="https://appstecnologia.com/"><img src="assets/images/logo.png" alt="" width="150vh"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-6">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" id='sobrenosmenu' href="#">Sobre a Apps</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" id='servicosmenu' href="#">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" id='aplicacoesmenu' href="#">Aplicações</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" id='contatomenu' href="#">Contato</a>
-                    </li>
-                    <li class="nav-item" style="display: none;" id='admmenu'>
-                        <a class="nav-link active" aria-current="page" id='contatomenu' href="https://appstecnologia.com/admin"> Admin </a>
-                    </li>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="col-12">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-6">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" id='sobrenosmenu' href="#">Sobre a Apps</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" id='servicosmenu' href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" id='aplicacoesmenu' href="#">Aplicações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" id='contatomenu' href="#">Contato</a>
+                        </li>
+                        <li class="nav-item" style="display: none;" id='admmenu'>
+                            <a class="nav-link active" aria-current="page" id='contatomenu' href="https://appstecnologia.com/admin"> Admin </a>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </nav>
