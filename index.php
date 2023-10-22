@@ -16,7 +16,7 @@
 
 <body class="bg-light bg-gradient">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-bottom: solid black 1px;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom" >
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="" width="150vh"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -180,23 +180,23 @@
 
 
 </body>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top footerapps">
-    <div class="col-md-1"></div>
-    <div class="col-md-4 d-flex align-items-center">
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top footerapps" style="background-color: white;">
+
+    <div class="col-md-6 align-items-center">
         <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
             <img src="assets/images/logo2.png" alt="" width="20vh">
         </a>
         <span class="mb-3 mb-md-0 text-body-secondary">Copyright &copy; 2023 <a href="https://appstecnologia.com/">AppsTecnologia</a>.</span>
     </div>
 
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+    <ul class="nav col-md-6 justify-content-center list-unstyled d-flex">
         <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a></li>
         <li class="ms-3"><a class="text-body-secondary" href="#"><i class='bi bi-twitter-x'></i></a></li>
         <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a></li>
         <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
 
     </ul>
-    <div class="col-md-1"></div>
+ 
 </footer>
 
 </html>
