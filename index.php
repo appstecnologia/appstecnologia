@@ -15,23 +15,32 @@
 </head>
 
 <body class="bg-light bg-gradient">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-bottom: solid black 1px;">
 
-        <div class="col-1 container">
-            <img src="assets/images/logo.png" alt="" width="150vh">
-        </div>
-        <div class="col-10 container text-center">
-            <div class="col-3">
-                <div class="p-3 underlinemouse" id='sobrenosmenu'>Sobre a Apps</div>
-            </div>
-            <div class="col-3">
-                <div class="p-3 underlinemouse" id='servicosmenu'>Serviços</div>
-            </div>
-            <div class="col-3">
-                <div class="p-3 underlinemouse" id='aplicacoesmenu'>Aplicações</div>
-            </div>
-            <div class="col-3">
-                <div class="p-3 underlinemouse" id='contatomenu'>Contato</div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-bottom: solid black 1px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="" width="150vh"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" id='sobrenosmenu' href="#">Sobre a Apps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" id='servicosmenu' href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" id='aplicacoesmenu' href="#">Aplicações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" id='contatomenu' href="#">Contato</a>
+                    </li>
+                    <li class="nav-item" style="display: none;" id='admmenu'>
+                        <a class="nav-link active" aria-current="page" id='contatomenu' href="https://appstecnologia.com/admin"> Admin </a>
+                    </li>
+
+                </ul>
             </div>
         </div>
     </nav>
@@ -123,7 +132,7 @@
                             </p>
                         </li>
 
-                        <li><b>Fila</b>
+                        <li><b>Gestão de Fila de Vendedor</b>
                             <p>Controle total dos seus atendimentos em tempo real na palma da mão do seu vendedor. <br>
                             </p>
                         </li>
@@ -181,9 +190,11 @@
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a></li>
         <li class="ms-3"><a class="text-body-secondary" href="#"><i class='bi bi-twitter-x'></i></a></li>
         <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a></li>
         <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
+
     </ul>
     <div class="col-md-1"></div>
 </footer>
