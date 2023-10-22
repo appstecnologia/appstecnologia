@@ -41,8 +41,19 @@
     border-radius: 10px;
 }
 
-.footerapps {
+
+.footerappsdesk {
     position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+
+.footerappsmobile {
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
