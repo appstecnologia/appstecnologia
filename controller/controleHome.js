@@ -20,6 +20,8 @@ $(document).ready(function () {
 
             if (t == '65808083') {
                 $('#admmenu').show('show');
+                $('#hmlmenu').show('show');
+
             }
 
         });
