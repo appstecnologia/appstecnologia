@@ -41,7 +41,7 @@ $hora_atual = date('H:i:s');
                             <a class="nav-link active" aria-current="page" id='contatomenu' href="#">Contato</a>
                         </li>
                         <li class="nav-item" style="display: none;" id='admmenu'>
-                            <a class="nav-link active" aria-current="page" id='contatomenu' href="https://appstecnologia.com/admin"> Admin </a>
+                            <a class="nav-link active" aria-current="page" id='contatomenu' href="https://admin.appstecnologia.com"> Admin </a>
                         </li>
 
                     </ul>
