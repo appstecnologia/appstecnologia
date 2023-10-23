@@ -11,7 +11,7 @@ $hora_atual = date('H:i:s');
     <link href="style.css" rel="stylesheet">
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="controller/controleHome.js?hora=" <?php echo $hora_atual;  ?>></script>
+    <script src="controller/controleHome.js?hora=<?php echo $hora_atual; ?>"></script>
     <link rel="shortcut icon" type="assets/images/logo2.png" href="assets/images/logo2.png">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <title>Apps Tecnologia</title>
