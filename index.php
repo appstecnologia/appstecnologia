@@ -45,7 +45,7 @@ $hora_atual = date('H:i:s');
                         </li>
 
                         <li class="nav-item" style="display: none;" id='hmlmenu'>
-                            <a class="nav-link active" aria-current="page" id='contatomenu' href="https://admin.appstecnologia.com"> Homologação Apps </a>
+                            <a class="nav-link active" aria-current="page" id='contatomenu' href="https://hml.appstecnologia.com"> Homologação Apps </a>
                         </li>
 
                     </ul>
